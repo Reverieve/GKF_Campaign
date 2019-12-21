@@ -1,0 +1,151 @@
+Version:1.0
+Anvil
+ANV-8M Nolan Mk II
+
+Config:Biped
+TechBase:Mixed (IS Chassis)
+Era:3151
+Source:TRO 3055 - Clan Invasion
+Rules Level:3
+
+Mass:60
+Engine:240 Fusion Engine(IS)
+Structure:IS Endo Steel
+Myomer:Standard
+
+Heat Sinks:10 Double
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Inner Sphere)
+LA Armor:15
+RA Armor:15
+LT Armor:18
+RT Armor:18
+CT Armor:24
+HD Armor:9
+LL Armor:22
+RL Armor:22
+RTL Armor:5
+RTR Armor:5
+RTC Armor:7
+
+Weapons:4
+ER Large Laser, Left Arm
+ER Medium Laser, Left Arm
+ER Medium Laser, Head
+Arrow IV, Right Arm
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISERLargeLaser
+ISERLargeLaser
+ISERMediumLaser
+IS Endo Steel
+IS Endo Steel
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+CLArrowIV
+CLArrowIV
+CLArrowIV
+CLArrowIV
+CLArrowIV
+CLArrowIV
+CLArrowIV
+CLArrowIV
+CLArrowIV
+CLArrowIV
+
+Left Torso:
+CLArrowIVAmmo
+CLArrowIVClusterAmmo
+CLArrowIVHomingAmmo
+CLArrowIVInferno-IVAmmo
+ISArrowIVThunder (FASCAM)Ammo
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+ISCASE
+-Empty-
+
+Right Torso:
+CLArrowIV
+CLArrowIV
+ISMASC
+ISMASC
+ISMASC
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+IS Endo Steel
+-Empty-
+-Empty-
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISTargeting Computer
+ISTargeting Computer
+
+Head:
+Life Support
+Sensors
+Cockpit
+ISERMediumLaser
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+IS Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+IS Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+

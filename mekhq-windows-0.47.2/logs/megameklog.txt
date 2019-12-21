@@ -1,0 +1,1572 @@
+
+19:33:15,579 INFO [mekhq.MekHQ] {main} 
+	MekHQ 0.47.2
+	Compiled on Fri Nov 15 14:39:18 PST 2019
+	Today is Fri Dec 20 19:33:15 PST 2019
+	Java vendor Oracle Corporation
+	Java version 13.0.1
+	Platform Windows 10 10.0 (amd64)
+	Total memory available to MegaMek: 1,048,576 kB
+
+19:33:15,579 ERROR [mekhq.preferences.MekHqPreferences] {main} 
+No MekHQ user preferences file found: mmconf/mekhq.preferences
+java.io.FileNotFoundException: mmconf\mekhq.preferences (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at mekhq.preferences.MekHqPreferences.loadFromFile(MekHqPreferences.java:54)
+	at mekhq.MekHQ.startup(MekHQ.java:295)
+	at mekhq.MekHQ.main(MekHQ.java:367)
+
+19:33:26,852 INFO [mekhq.campaign.universe.Faction] {SwingWorker-pool-1-thread-1} 
+Starting load of faction data from XML...
+
+19:33:26,962 ERROR [mekhq.campaign.universe.Faction] {SwingWorker-pool-1-thread-1} 
+Faction id "19" already used for faction Rim Worlds Republic, can't re-use it for Rim Provisional Government
+
+19:33:26,977 INFO [mekhq.campaign.universe.Faction] {SwingWorker-pool-1-thread-1} 
+Loaded a total of 170 factions
+
+19:33:27,009 INFO [mekhq.campaign.finances.CurrencyManager] {SwingWorker-pool-1-thread-1} 
+Starting load currency information from XML...
+
+19:33:27,040 INFO [mekhq.campaign.finances.CurrencyManager] {SwingWorker-pool-1-thread-1} 
+Load of currency information complete!
+
+19:33:27,149 INFO [mekhq.campaign.personnel.Bloodname] {SwingWorker-pool-1-thread-1} 
+Loaded 805 Bloodname records.
+
+19:33:27,844 INFO [mekhq.campaign.universe.Systems] {Planet Loader} 
+Starting load of system data from XML...
+
+19:33:31,904 INFO [mekhq.campaign.universe.Systems] {Planet Loader} 
+Loaded a total of 3445 systems in 4.060s.
+
+19:33:31,951 WARN [mekhq.campaign.universe.Systems] {Planet Loader} 
+Extremly close systems detected. Data error? Cambridge Perimeter Defense Station <-> Cambridge: 0.828 ly
+
+19:33:31,966 WARN [mekhq.campaign.universe.Systems] {Planet Loader} 
+Extremly close systems detected. Data error? Cambridge <-> Cambridge Perimeter Defense Station: 0.828 ly
+
+19:33:32,107 INFO [megamek.common.QuirksHandler] {SwingWorker-pool-1-thread-1} 
+Parsing C:\Battletech\GKF_Campaign\mekhq-windows-0.47.2\data\canonUnitQuirks.xml
+...Parsing finished.
+	Total number of unit tags: 1530
+	Total number of quirk entries: 1530
+
+19:33:32,122 INFO [megamek.common.QuirksHandler] {SwingWorker-pool-1-thread-1} 
+Parsing C:\Battletech\GKF_Campaign\mekhq-windows-0.47.2\mmconf\unitQuirksOverride.xml
+...Parsing finished.
+	Total number of unit tags: 1
+	Total number of quirk entries: 1
+
+19:33:56,637 WARN [megamek.common.verifier.TestSupportVehicle] {Mech Cache Loader} 
+Could not find multiplier for Environmental Sealing chassis mod.
+
+19:33:56,637 WARN [megamek.common.verifier.TestSupportVehicle] {Mech Cache Loader} 
+Could not find multiplier for Environmental Sealing chassis mod.
+
+19:33:58,337 INFO [mekhq.gui.dialog.DataLoadingDialog$Task] {SwingWorker-pool-1-thread-1} 
+Loading campaign file from XML...
+
+19:33:58,353 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Starting load of campaign file from XML...
+
+19:33:58,634 INFO [mekhq.campaign.personnel.Ranks] {SwingWorker-pool-1-thread-1} 
+Starting load of Rank Systems from XML...
+
+19:33:58,728 INFO [mekhq.campaign.personnel.Ranks] {SwingWorker-pool-1-thread-1} 
+Done loading Rank Systems
+
+19:33:59,683 INFO [mekhq.campaign.universe.News] {SwingWorker-pool-1-thread-1} 
+Starting load of news data for 3067 from XML...
+
+19:33:59,765 INFO [mekhq.campaign.universe.News] {SwingWorker-pool-1-thread-1} 
+loaded 0 days of news items for 3067
+
+19:34:01,189 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Checking for missing entities...
+
+19:34:01,235 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Finished checking for missing entities!
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+Loading Campaign Options from XML...
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+clanPriceModifier
+	1.0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useFactionForNames
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+repairSystem
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useUnitRating
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+unitRatingMethod
+	Campaign Ops
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useEraMods
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+assignedTechFirst
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+resetToFirstTech
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useTactics
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useInitBonus
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useToughness
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useArtillery
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useAbilities
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useEdge
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useSupportEdge
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useImplants
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+altQualityAveraging
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useAdvancedMedical
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useDylansRandomXp
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useQuirks
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+showOriginFaction
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForParts
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForRepairs
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForUnits
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForSalaries
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForOverhead
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForMaintain
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForTransport
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usePeacetimeCost
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useExtendedPartsModifier
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+showPeacetimeCost
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usedPartsValueA
+	0.1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usedPartsValueB
+	0.2
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usedPartsValueC
+	0.3
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usedPartsValueD
+	0.5
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usedPartsValueE
+	0.7
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usedPartsValueF
+	0.9
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+damagedPartsValue
+	0.33
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+canceledOrderReimbursement
+	0.5
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+sellUnits
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+sellParts
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+scenarioXP
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+killsForXP
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+killXPAward
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+nTasksXP
+	25
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+tasksXP
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+mistakeXP
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+successXP
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+idleXP
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+targetIdleXP
+	10
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+monthsIdleXP
+	2
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+contractNegotiationXP
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+adminWeeklyXP
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+adminXPPeriod
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+edgeCost
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+limitByYear
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+disallowExtinctStuff
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+allowClanPurchases
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+allowISPurchases
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+allowCanonOnly
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+allowCanonRefitOnly
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+variableTechLevel
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+factionIntroDate
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useAmmoByType
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usePercentageMaint
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+waitingPeriod
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+acquisitionSkill
+	Automatic Success
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+acquisitionSupportStaffOnly
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+techLevel
+	4
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+nDiceTransitTime
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+constantTransitTime
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+unitTransitTime
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+acquireMosBonus
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+acquireMosUnit
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+acquireMinimumTime
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+acquireMinimumTimeUnit
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usePlanetaryAcquisition
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+planetAcquisitionFactionLimit
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+planetAcquisitionNoClanCrossover
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+noClanPartsFromIS
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+penaltyClanPartsFromIS
+	4
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+planetAcquisitionVerbose
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+maxJumpsPlanetaryAcquisition
+	2
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+equipmentContractPercent
+	5.0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+dropshipContractPercent
+	0.0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+jumpshipContractPercent
+	0.0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+warshipContractPercent
+	0.0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+equipmentContractBase
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+equipmentContractSaleValue
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+blcSaleValue
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+clanAcquisitionPenalty
+	3
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+isAcquisitionPenalty
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useLoanLimits
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+payForRecruitment
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+healWaitingPeriod
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+naturalHealingWaitingPeriod
+	15
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+destroyByMargin
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+destroyMargin
+	4
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+destroyPartTarget
+	10
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useAeroSystemHits
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+maintenanceCycleDays
+	7
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+maintenanceBonus
+	-1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useQualityMaintenance
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+reverseQualityNames
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useUnofficalMaintenance
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+checkMaintenance
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useRandomHitsForVees
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+minimumHitsForVees
+	1
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+maxAcquisitions
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useUnofficialProcreation
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useUnofficialProcreationNoRelationship
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useParentage
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+logConception
+	false
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useTransfers
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useTimeInService
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+capturePrisoners
+	true
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+defaultPrisonerStatus
+	0
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketName
+	Strat Ops
+
+19:34:01,235 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketRandomEliteRemoval
+	10
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketRandomVeteranRemoval
+	8
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketRandomRegularRemoval
+	6
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketRandomGreenRemoval
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketRandomUltraGreenRemoval
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketReportRefresh
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+personnelMarketDylansWeight
+	0.3
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+salaryEnlistedMultiplier
+	1.0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+salaryCommissionMultiplier
+	1.2
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+salaryAntiMekMultiplier
+	1.5
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+probPhenoMW
+	95
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+probPhenoAero
+	95
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+probPhenoBA
+	100
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+probPhenoVee
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+tougherHealing
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useAtB
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useAero
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useVehicles
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+clanVehicles
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+doubleVehicles
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+adjustPlayerVehicles
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+opforLanceTypeMechs
+	1
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+opforLanceTypeMixed
+	2
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+opforLanceTypeVehicles
+	3
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+opforUsesVTOLs
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useDropShips
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+skillLevel
+	2
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+aeroRecruitsHaveUnits
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useShareSystem
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+sharesExcludeLargeCraft
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+sharesForAll
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+retirementRolls
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+customRetirementMods
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+foundersNeverRetire
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+trackUnitFatigue
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+mercSizeLimited
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+trackOriginalUnit
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+regionalMechVariations
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+searchRadius
+	800
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+intensity
+	1.0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+variableContractLength
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+instantUnitMarketDelivery
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useWeatherConditions
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useLightConditions
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usePlanetaryConditions
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useLeadership
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useStrategy
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+baseStrategyDeployment
+	3
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+additionalStrategyDeployment
+	1
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+adjustPaymentForStrategy
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+restrictPartsByMission
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+limitLanceWeight
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+limitLanceNumUnits
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+useAtBCapture
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+contractMarketReportRefresh
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+unitMarketReportRefresh
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+startGameDelay
+	500
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+assignPortraitOnRoleChange
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+allowOpforAeros
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+allowOpforLocalUnits
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+opforAeroChance
+	5
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+opforLocalUnitChance
+	5
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+historicalDailyLog
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairUseExtraTime
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairUseRushJob
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairAllowCarryover
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOptimizeToCompleteToday
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairScrapImpossible
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairUseAssignedTechsFirst
+	false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairReplacePod
+	true
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOptions
+	
+			
+				0
+				0
+				0
+				4
+				4
+				4
+			
+			
+				1
+				0
+				0
+				4
+				4
+				4
+			
+			
+				2
+				0
+				0
+				4
+				4
+				4
+			
+			
+				3
+				0
+				0
+				4
+				4
+				4
+			
+			
+				4
+				0
+				0
+				4
+				4
+				4
+			
+			
+				5
+				0
+				0
+				4
+				4
+				4
+			
+			
+				6
+				0
+				0
+				4
+				4
+				4
+			
+			
+				7
+				0
+				0
+				4
+				4
+				4
+			
+			
+				8
+				0
+				0
+				4
+				4
+				4
+			
+			
+				12
+				0
+				0
+				4
+				4
+				4
+			
+		
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 0.type
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 0.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 0.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 0.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 0.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 0.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 1.type
+	1
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 1.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 1.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 1.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 1.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 1.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 2.type
+	2
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 2.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 2.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 2.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 2.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 2.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 3.type
+	3
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 3.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 3.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 3.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 3.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 3.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 4.type
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 4.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 4.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 4.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 4.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 4.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 5.type
+	5
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 5.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 5.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 5.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 5.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 5.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 6.type
+	6
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 6.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 6.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 6.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 6.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 6.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 7.type
+	7
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 7.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 7.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 7.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 7.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 7.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 8.type
+	8
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 8.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 8.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 8.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 8.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 8.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 9.type
+	12
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 9.active
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 9.skillMin
+	0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 9.skillMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 9.btnMin
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+massRepairOption 9.btnMax
+	4
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+planetTechAcquisitionBonus
+	-1,0,1,2,4,8
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+planetIndustryAcquisitionBonus
+	0,0,0,0,0,0
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+planetOutputAcquisitionBonus
+	-1,0,1,2,4,8
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+salaryTypeBase
+	0 CSB,1500 CSB,1500 CSB,900 CSB,900 CSB,900 CSB,900 CSB,960 CSB,750 CSB,960 CSB,900 CSB,1000 CSB,1000 CSB,1000 CSB,1000 CSB,800 CSB,800 CSB,800 CSB,800 CSB,400 CSB,1500 CSB,400 CSB,500 CSB,500 CSB,500 CSB,500 CSB,0 CSB
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+salaryXpMultiplier
+	0.6,0.6,1.0,1.6,3.2
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+usePortraitForType
+	false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+
+19:34:01,251 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+rats
+	Xotl,Total Warfare
+
+19:34:01,272 INFO [mekhq.campaign.CampaignOptions] {SwingWorker-pool-1-thread-1} 
+Load Campaign Options Complete!
+
+19:34:01,288 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Unit Nodes from XML...
+
+19:34:01,304 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (cfd01cbf-baf6-4cc4-a842-e1de7d37cf70):Unit for Entity: Gotha GTHA-500b Mk II *
+
+19:34:01,304 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (5e4612ad-2535-4b43-ab31-018911f6447e):Unit for Entity: Tonbo Superheavy Transport (Standard)
+
+19:34:01,319 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (2fd9a7b1-b0cd-4cc0-aa0e-59982a297671):Unit for Entity: DroST IIa Transport (2470)
+
+19:34:01,319 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (1f76944e-5562-4deb-b769-c8202e79d528):Unit for Entity: Savior Repair Vehicle (Standard)
+
+19:34:01,319 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (7dc5c55d-8f30-43e9-baa5-a6ec432142dc):Unit for Entity: Crab CRB-27 Jordan
+
+19:34:01,319 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (40a65b6f-a1c9-4cd0-9508-e619405163aa):Unit for Entity: Griffin GRF-2Nd2
+
+19:34:01,335 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (9a18f990-a0c4-4c05-8927-d405199a5b62):Unit for Entity: Avalanche AVL-1OR Woody
+
+19:34:01,335 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (0536cbf6-2c9c-4d17-bd8b-3f8d42b43e80):Unit for Entity: Musketeer Hover Tank (3080 Upgrade)
+
+19:34:01,335 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (7f625c24-a503-4a27-b6a9-493c0b4813c7):Unit for Entity: Nighthawk PA(L) Mk. XXI
+
+19:34:01,335 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (d777cd03-5df2-4654-abf4-1159c9775e70):Unit for Entity: Nighthawk PA(L) Mk. XXI
+
+19:34:01,335 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (70835c46-207c-4271-89b7-99d3872a8012):Unit for Entity: Maxim Mk II Transport (Standard)
+
+19:34:01,350 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (1f6f122a-9096-407b-9a9d-a6f263ebbb8a):Unit for Entity: Dervish DV-6Mr
+
+19:34:01,350 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (d72390f5-14a1-4ab0-82fc-9c3f873d54dc):Unit for Entity: Pegasus Scout Hover Tank (3058 Upgrade)
+
+19:34:01,350 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (2a6cbee0-12e5-456e-aaf5-bc136d0c7360):Unit for Entity: Pegasus Scout Hover Tank (3058 Upgrade)
+
+19:34:01,350 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (3cb51583-f104-40ca-aded-a2e37ba8b6c8):Unit for Entity: Anvil ANV-8M Nolan Mk II
+
+19:34:01,350 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (b313edbb-38c7-47e7-a63d-fc98f3550458):Unit for Entity: Gotha GTHA-500b Mk II *
+
+19:34:01,366 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (e8d4b5ee-0b16-48d6-a52d-1183409d6717):Unit for Entity: Phoenix Hawk LAM Mk I PHX-HK1
+
+19:34:01,366 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (2bbf0d6d-aede-4e24-8b2f-85c4e07875f2):Unit for Entity: Waneta S-WN-2LAM
+
+19:34:01,366 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (b8a2dd41-0994-4095-9aff-956ae11b702d):Unit for Entity: Waneta S-WN-2LAM
+
+19:34:01,366 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (261a33bc-b756-407e-b6fd-7614ae8111bd):Unit for Entity: Phoenix Hawk LAM Mk I PHX-HK1R
+
+19:34:01,382 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (43bfa27c-0a19-4e43-b3c0-1effc505a5fe):Unit for Entity: Crossbow (Dominic-B-2)
+
+19:34:01,382 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (e0ac0ebe-a5ad-4f14-ab78-6c024b0cbf2d):Unit for Entity: Roc (Standard)
+
+19:34:01,382 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (56a7ebb9-fddd-4bec-977b-3d9140e2377b):Unit for Entity: Roc (Standard)
+
+19:34:01,382 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (3da9d2e3-c466-4586-b5c9-3e9d26eff923):Unit for Entity: Roc (Standard)
+
+19:34:01,397 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (ec490db2-a8ce-4488-bef8-609d33a68e92):Unit for Entity: Roc (Standard)
+
+19:34:01,397 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (a52cc246-a11a-421b-aa51-729d27566a77):Unit for Entity: Manticore Heavy Tank (LB-X)
+
+19:34:01,397 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (5644f4c0-7e38-440b-aa31-75f2df6a3172):Unit for Entity: Manticore Heavy Tank (LB-X)
+
+19:34:01,397 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (4546f4eb-6dd0-420d-9dcc-0940ccf263d6):Unit for Entity: Trinity Medium Battle Armor (Asterion Upgrade)[MRR]
+
+19:34:01,397 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (f1f54c6f-9ffc-414d-983b-3f9cdbd1c886):Unit for Entity: Trinity Medium Battle Armor (Asterion Upgrade)[MRR]
+
+19:34:01,397 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (28724346-94be-4fb3-adcd-0245d0c50497):Unit for Entity: Assault Triumph (3082)
+
+19:34:01,397 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (f7ee6575-5879-4138-a3b3-dcfcecf9db66):Unit for Entity: Stalking Spider II Catherine
+
+19:34:01,413 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (8250ae0c-b5ef-405a-91b5-29172baeeafa):Unit for Entity: Yu Huang Y-H9G
+
+19:34:01,413 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (81230f4b-a0f8-4f8c-a09c-0f674ca11dd1):Unit for Entity: Warhammer WHD-10CT
+
+19:34:01,413 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (aa0fdb06-b8ea-400a-95ba-67f860c85cf3):Unit for Entity: Longbow LGB-8V
+
+19:34:01,413 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (8cd2119c-132a-459c-acb6-d2c4e812e170):Unit for Entity: Juliano JLN-5A Dallas
+
+19:34:01,413 INFO [mekhq.campaign.Campaign] {SwingWorker-pool-1-thread-1} 
+Adding unit: (1c770026-b46a-4aaf-998b-dc91e119fb2b):Unit for Entity: Shiva SHV-O
+
+19:34:01,413 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Unit Nodes Complete!
+
+19:34:01,429 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Personnel Nodes from XML...
+
+19:34:01,703 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Personnel Nodes Complete!
+
+19:34:01,703 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Ancestor Nodes from XML...
+
+19:34:01,703 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Ancestor Nodes Complete!
+
+19:34:01,703 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Mission Nodes from XML...
+
+19:34:01,734 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Mission Nodes Complete!
+
+19:34:01,734 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Force Organization from XML...
+
+19:34:01,734 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load of Force Organization complete!
+
+19:34:01,734 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Finances from XML...
+
+19:34:01,765 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load of Finances complete!
+
+19:34:01,765 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Kill Nodes from XML...
+
+19:34:01,765 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Kill Nodes Complete!
+
+19:34:01,765 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Skill Type Nodes from XML...
+
+19:34:01,765 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Skill Type Nodes Complete!
+
+19:34:01,765 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Special Ability Nodes from XML...
+
+19:34:01,781 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Special Ability Nodes Complete!
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+Loading Random Skill Preferences from XML...
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+overallRecruitBonus
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	0
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+recruitBonuses
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+specialAbilBonus
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	-10,-10,-2,0,1
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+tacticsMod
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	-10,-10,-7,-4,-1
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+randomizeSkill
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	true
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+useClanBonuses
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	true
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+antiMekProb
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	10
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+combatSmallArmsBonus
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	-3
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+supportSmallArmsBonus
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	-10
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+artilleryProb
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	10
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+artilleryBonus
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	-2
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+secondSkillProb
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	0
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+---
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+secondSkillBonus
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+	-4
+
+19:34:01,781 INFO [mekhq.campaign.RandomSkillPreferences] {SwingWorker-pool-1-thread-1} 
+Load Random Skill Preferences Complete!
+
+19:34:01,781 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading Part Nodes from XML...
+
+19:34:02,048 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Part Nodes Complete!
+
+19:34:02,048 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Loading GameOption Nodes from XML...
+
+19:34:02,048 ERROR [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Invalid option 'ind_weapons_grounded_dropper' when trying to load options file.
+
+19:34:02,048 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load Game Option Nodes Complete!
+
+19:34:02,080 WARN [mekhq.module.ScriptPluginManager] {SwingWorker-pool-1-thread-1} 
+Could not find script engine for extension txt
+
+19:34:02,080 INFO [mekhq.campaign.universe.Systems] {Planet Loader} 
+Starting load of system data from XML...
+
+19:34:04,583 INFO [mekhq.campaign.universe.Systems] {Planet Loader} 
+Loaded a total of 3445 systems in 2.503s.
+
+19:34:04,583 WARN [mekhq.campaign.universe.Systems] {Planet Loader} 
+Extremly close systems detected. Data error? Cambridge Perimeter Defense Station <-> Cambridge: 0.828 ly
+
+19:34:04,583 WARN [mekhq.campaign.universe.Systems] {Planet Loader} 
+Extremly close systems detected. Data error? Cambridge <-> Cambridge Perimeter Defense Station: 0.828 ly
+
+19:34:04,599 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Force IDs set in 0ms
+
+19:34:04,630 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Parts processed in 31ms
+
+19:34:04,630 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Rank references fixed in 0ms
+
+19:34:04,702 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Pilot references fixed in 72ms
+
+19:34:04,702 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] C3 networks refreshed in 0ms
+
+19:34:04,749 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Units initialized in 47ms
+
+19:34:04,749 INFO [mekhq.campaign.universe.News] {SwingWorker-pool-1-thread-1} 
+Starting load of news data for 3152 from XML...
+
+19:34:04,749 INFO [mekhq.campaign.universe.News] {SwingWorker-pool-1-thread-1} 
+loaded 0 days of news items for 3152
+
+19:34:04,749 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] News loaded in 0ms
+
+19:34:04,749 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Ammo bins cleared in 0ms
+
+19:34:04,764 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Reserved refit parts fixed in 0ms
+
+19:34:04,764 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+[Campaign Load] Warehouse cleaned up in 0ms
+
+19:34:04,764 INFO [mekhq.campaign.io.CampaignXmlParser] {SwingWorker-pool-1-thread-1} 
+Load of campaign file complete!
+
+19:34:06,615 INFO [mekhq.gui.MekLabTab] {AWT-EventQueue-0} 
+Starting MegaMekLab version: 0.47.2
+
+19:34:08,814 WARN [mekhq.campaign.parts.equipment.EquipmentPart] {AWT-EventQueue-0} 
+I don't know how much BattleMech Turret (Quad) costs.
+
+19:34:38,115 WARN [mekhq.campaign.parts.equipment.EquipmentPart] {AWT-EventQueue-0} 
+I don't know how much BattleMech Turret (Quad) costs.
+
+19:35:34,276 INFO [mekhq.gui.CampaignGUI] {AWT-EventQueue-0} 
+Saving campaign...
+
+19:35:49,265 INFO [mekhq.gui.CampaignGUI] {AWT-EventQueue-0} 
+Campaign saved to C:\Battletech\GKF_Campaign\Saves\GKF_Campaign2019-12-20.cpnx

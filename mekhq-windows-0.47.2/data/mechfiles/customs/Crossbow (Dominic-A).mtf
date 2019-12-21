@@ -1,0 +1,155 @@
+Version:1.0
+Crossbow
+(Dominic-A)
+
+Config:Biped Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3150
+Source:Custom
+Rules Level:5
+
+Mass:65
+Engine:260 Fusion (Clan) Engine
+Structure:IS Standard
+Myomer:Standard
+
+Heat Sinks:11 Double
+Base Chassis Heat Sinks:10
+Walk MP:4
+Jump MP:0
+
+Armor:Standard(Clan)
+LA Armor:18
+RA Armor:18
+LT Armor:20
+RT Armor:20
+CT Armor:25
+HD Armor:9
+LL Armor:20
+RL Armor:20
+RTL Armor:8
+RTR Armor:8
+RTC Armor:10
+
+Weapons:7
+LRM 15, Left Arm
+ER Medium Laser, Left Arm
+ER Medium Laser, Left Arm
+LRM 15, Right Arm
+ER Medium Laser, Right Arm
+ER Medium Laser, Right Arm
+TAG, Center Torso
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+LRM 15 (omnipod)
+LRM 15 (omnipod)
+LRM 15 (omnipod)
+ISArtemisIV (omnipod)
+ISERMediumLaser (omnipod)
+ISERMediumLaser (omnipod)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+LRM 15 (omnipod)
+LRM 15 (omnipod)
+LRM 15 (omnipod)
+ISArtemisIV (omnipod)
+ISERMediumLaser (omnipod)
+ISERMediumLaser (omnipod)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Torso:
+ISCASEII (omnipod)
+IS Ammo LRM-15 Artemis-capable (omnipod)
+IS Ammo LRM-15 Artemis-capable (omnipod)
+IS Ammo LRM-15 Artemis-capable (omnipod)
+IS Ammo LRM-15 Artemis-capable (omnipod)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISTAG (omnipod)
+-Empty-
+
+Head:
+Life Support
+Sensors
+Cockpit
+ISTargeting Computer (omnipod)
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+

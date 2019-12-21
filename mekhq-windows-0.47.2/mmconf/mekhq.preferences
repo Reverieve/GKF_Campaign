@@ -1,0 +1,111 @@
+{
+  "preferences" : [ {
+    "class" : "mekhq.MekHQ",
+    "elements" : [ {
+      "element" : "campaignOptionsDirectory",
+      "value" : "."
+    }, {
+      "element" : "starMapsDirectory",
+      "value" : "."
+    }, {
+      "element" : "scenarioTemplatesDirectory",
+      "value" : "."
+    }, {
+      "element" : "partsDirectory",
+      "value" : "."
+    }, {
+      "element" : "unitsDirectory",
+      "value" : "."
+    }, {
+      "element" : "financesDirectory",
+      "value" : "."
+    }, {
+      "element" : "personnelDirectory",
+      "value" : "."
+    }, {
+      "element" : "campaignsDirectory",
+      "value" : "C:\\Battletech\\GKF_Campaign\\Saves"
+    }, {
+      "element" : "planetsDirectory",
+      "value" : "."
+    }, {
+      "element" : "selectedTheme",
+      "value" : "javax.swing.plaf.metal.MetalLookAndFeel"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.DailyReportLogDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "0|0|0|0|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.RepairTab",
+    "elements" : [ {
+      "element" : "serviceUnitsTable",
+      "value" : "1|DESCENDING"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.ImageChoiceDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "467|511|406|104|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.CampaignGUI",
+    "elements" : [ {
+      "element" : "mainWindow",
+      "value" : "1280|720|0|0|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.PersonnelTab",
+    "elements" : [ {
+      "element" : "personnelView",
+      "value" : "1"
+    }, {
+      "element" : "groupByUnit",
+      "value" : "true"
+    }, {
+      "element" : "personnelType",
+      "value" : "3"
+    }, {
+      "element" : "personnelTable",
+      "value" : "0|DESCENDING"
+    } ]
+  }, {
+    "class" : "mekhq.gui.HangarTab",
+    "elements" : [ {
+      "element" : "unitType",
+      "value" : "0"
+    }, {
+      "element" : "unitView",
+      "value" : "1"
+    }, {
+      "element" : "unitTable",
+      "value" : "1|DESCENDING"
+    } ]
+  }, {
+    "class" : "mekhq.gui.WarehouseTab",
+    "elements" : [ {
+      "element" : "partsTable",
+      "value" : "0|ASCENDING"
+    }, {
+      "element" : "partsType",
+      "value" : "0"
+    }, {
+      "element" : "partsView",
+      "value" : "0"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.DataLoadingDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "650|370|315|175|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.OverviewTab",
+    "elements" : [ {
+      "element" : "partsInUseTable",
+      "value" : "0|ASCENDING"
+    } ]
+  } ]
+}

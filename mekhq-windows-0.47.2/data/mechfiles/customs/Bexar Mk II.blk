@@ -1,0 +1,145 @@
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
+<UnitType>
+Tank
+</UnitType>
+
+<Name>
+Bexar
+</Name>
+
+<Model>
+Mk II
+</Model>
+
+<year>
+3145
+</year>
+
+<originalBuildYear>
+3145
+</originalBuildYear>
+
+<type>
+IS Level 1
+</type>
+
+<motion_type>
+WiGE
+</motion_type>
+
+<transporters>
+</transporters>
+
+<cruiseMP>
+6
+</cruiseMP>
+
+<engine_type>
+6
+</engine_type>
+
+<armor>
+48
+40
+40
+32
+40
+</armor>
+
+<Body Equipment>
+ISCASE
+IS Ammo LRM-15
+IS Ammo LRM-15
+IS Ammo SRM-6
+</Body Equipment>
+
+<Front Equipment>
+</Front Equipment>
+
+<Right Equipment>
+</Right Equipment>
+
+<Left Equipment>
+</Left Equipment>
+
+<Rear Equipment>
+Lift Hoist/Arresting Hoist
+</Rear Equipment>
+
+<Turret Equipment>
+LRM 15
+SRM 6
+</Turret Equipment>
+
+<capabilities>
+Built around a lifthoist, the Bexar Mk II is a hauling vehicle. It's assortment 
+of weapons allows it to carry out its mission under fire, however. Armed with a 
+long-range missile launcher for fire support and a short-range launcher closer 
+in. The Bexar II also has limited cargo carrying capabilities, although this 
+cargo space is often traded to install turret mounted rocket launchers to 
+increase the Bexar Mk II's combat potency.
+</capabilities>
+
+<overview>
+Developed as a testing platform for SLDF wing in ground combat vehicles, the 
+Bexar WiGE saw low-rate production and was intended to work in coastal areas, 
+where it's unique hover capabilities and lifthoist made it a cheap tugboat or 
+quick salvage vehicle. By the end of the Amaris Conflict, only a handful of 
+these vehicles were produced. All known examples were taken along Kerensky's 
+Exodus and were subsequently retired to storage. The only remaining vehicles 
+accompanied the Wolf's Dragoons to the Inner Sphere. Nearly half of all Bexars 
+were destroyed on Misery, and half as many were cannibalized to save the 
+remaining few. A lance of these vehicles were known to be operating with 
+Tejano's Rangers in 3025. The arrival of the Clans underscored the need for a 
+combat salvage unit capable of delivering fire support or skirmishing near the 
+front. To this end the Rangers created the Bexar Mk II refit.
+</overview>
+
+<deployment>
+Only a handful of Bexar Mk IIs were known to exist in Tejano's Rangers during 
+the FedCom Civil War. Most of these were destroyed by the Word of Blake Jihad. 
+Only about six models were confirmed operational before the HPG blackout. Two 
+now serve with the Royal Guards on Tharkad and one has been seen operating in 
+the Periphery in the employ of a mercenary unit. The remainder are in service 
+with the Tamar Province Militia.
+</deployment>
+
+<manufacturer>
+Blackwell Corporation
+</manufacturer>
+
+<primaryFactory>
+Outreach
+</primaryFactory>
+
+<systemManufacturers>
+ENGINE:Vox
+ARMOR:Protoech
+COMMUNICATIONS:Dalban Starlink
+TARGETING:Garret
+</systemManufacturers>
+
+<systemModels>
+ENGINE:160
+ARMOR:5 with CASE
+COMMUNICATIONS:II
+TARGETING:E5a
+</systemModels>
+
+<source>
+Custom
+</source>
+
+<tonnage>
+50.0
+</tonnage>
+

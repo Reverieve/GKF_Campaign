@@ -1,0 +1,250 @@
+#building block data file
+<BlockVersion>
+1
+</BlockVersion>
+
+##Write the version number just in case...
+<Version>
+MAM0
+</Version>
+
+<UnitType>
+Warship
+</UnitType>
+
+<Name>
+Aquilla Transport Jumpship
+</Name>
+
+<Model>
+(Manifest Destiny)
+</Model>
+
+<year>
+3150
+</year>
+
+<originalBuildYear>
+3150
+</originalBuildYear>
+
+<type>
+IS Level 5
+</type>
+
+<motion_type>
+Aerodyne
+</motion_type>
+
+<transporters>
+smallcraftbay:8.0:4:1
+cargobay:10100.0:2:2
+cargobay:10100.0:2:3
+1stclassquarters:120.0:0
+2ndclassquarters:210.0:0
+dockingcollar
+dockingcollar
+crewquarters:420.0:0
+cargobay:13244.5:1:4
+</transporters>
+
+<SafeThrust>
+1
+</SafeThrust>
+
+<heatsinks>
+154
+</heatsinks>
+
+<sink_type>
+0
+</sink_type>
+
+<fuel>
+30000
+</fuel>
+
+<engine_type>
+1
+</engine_type>
+
+<armor_type>
+40
+</armor_type>
+
+<armor_tech>
+5
+</armor_tech>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
+9
+7
+7
+5
+6
+6
+</armor>
+
+<Nose Equipment>
+ISArtemisIV
+ISArtemisIV
+(B) ISAntiMissileSystem
+ISAntiMissileSystem
+ISAMS Ammo:36
+(B) LRM 20
+LRM 20
+IS Ammo LRM-20 Artemis-capable:24
+(B) ISUltraAC5
+ISUltraAC5
+IS Ultra AC/5 Ammo:60
+</Nose Equipment>
+
+<Left Front Side Equipment>
+(B) ISAntiMissileSystem
+ISAntiMissileSystem
+ISAMS Ammo:36
+(B) LRM 20
+LRM 20
+IS Ammo LRM-20 Artemis-capable:24
+(B) ISUltraAC5
+ISUltraAC5
+IS Ultra AC/5 Ammo:60
+ISArtemisIV
+ISArtemisIV
+</Left Front Side Equipment>
+
+<Right Front Side Equipment>
+ISArtemisIV
+ISArtemisIV
+(B) ISAntiMissileSystem
+ISAntiMissileSystem
+ISAMS Ammo:36
+(B) LRM 20
+LRM 20
+IS Ammo LRM-20 Artemis-capable:24
+(B) ISUltraAC5
+ISUltraAC5
+IS Ultra AC/5 Ammo:60
+</Right Front Side Equipment>
+
+<Aft Equipment>
+ISArtemisIV
+ISArtemisIV
+(B) ISAntiMissileSystem
+ISAntiMissileSystem
+ISAMS Ammo:36
+(B) LRM 20
+LRM 20
+IS Ammo LRM-20 Artemis-capable:24
+(B) ISUltraAC5
+ISUltraAC5
+IS Ultra AC/5 Ammo:60
+</Aft Equipment>
+
+<Aft Left Side Equipment>
+(B) ISAntiMissileSystem
+ISAntiMissileSystem
+ISAMS Ammo:36
+(B) LRM 20
+LRM 20
+IS Ammo LRM-20 Artemis-capable:24
+(B) ISUltraAC5
+ISUltraAC5
+IS Ultra AC/5 Ammo:60
+ISArtemisIV
+ISArtemisIV
+</Aft Left Side Equipment>
+
+<Aft Right Side Equipment>
+ISArtemisIV
+ISArtemisIV
+(B) ISAntiMissileSystem
+ISAntiMissileSystem
+ISAMS Ammo:36
+(B) LRM 20
+LRM 20
+IS Ammo LRM-20 Artemis-capable:24
+(B) ISUltraAC5
+ISUltraAC5
+IS Ultra AC/5 Ammo:60
+</Aft Right Side Equipment>
+
+<Hull Equipment>
+</Hull Equipment>
+
+<Left Broadsides Equipment>
+</Left Broadsides Equipment>
+
+<Right Broadsides Equipment>
+</Right Broadsides Equipment>
+
+<structural_integrity>
+10
+</structural_integrity>
+
+<source>
+IO - Age of War
+</source>
+
+<tonnage>
+100000.0
+</tonnage>
+
+<kf_core>
+4
+</kf_core>
+
+<jump_range>
+15
+</jump_range>
+
+<lithium-fusion>
+1
+</lithium-fusion>
+
+<sail>
+1
+</sail>
+
+<grav_decks>
+100
+100
+100
+</grav_decks>
+
+<crew>
+111
+</crew>
+
+<officers>
+12
+</officers>
+
+<gunners>
+4
+</gunners>
+
+<passengers>
+30
+</passengers>
+
+<marines>
+0
+</marines>
+
+<battlearmor>
+0
+</battlearmor>
+
+<life_boat>
+0
+</life_boat>
+
+<escape_pod>
+22
+</escape_pod>
+
