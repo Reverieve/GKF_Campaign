@@ -54,7 +54,7 @@
     "class" : "mekhq.gui.CampaignGUI",
     "elements" : [ {
       "element" : "mainWindow",
-      "value" : "1280|720|0|0|false"
+      "value" : "1295|695|-7|-7|true"
     } ]
   }, {
     "class" : "mekhq.gui.PersonnelTab",
@@ -66,7 +66,7 @@
       "value" : "true"
     }, {
       "element" : "personnelType",
-      "value" : "3"
+      "value" : "4"
     }, {
       "element" : "personnelTable",
       "value" : "0|DESCENDING"
@@ -100,6 +100,12 @@
     "elements" : [ {
       "element" : "dialog",
       "value" : "650|370|315|175|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.CustomizePersonDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "976|591|152|64|false"
     } ]
   }, {
     "class" : "mekhq.gui.OverviewTab",
