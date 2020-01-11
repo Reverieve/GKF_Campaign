@@ -1,81 +1,15 @@
 {
   "preferences" : [ {
-    "class" : "mekhq.MekHQ",
-    "elements" : [ {
-      "element" : "campaignOptionsDirectory",
-      "value" : "."
-    }, {
-      "element" : "starMapsDirectory",
-      "value" : "."
-    }, {
-      "element" : "scenarioTemplatesDirectory",
-      "value" : "."
-    }, {
-      "element" : "partsDirectory",
-      "value" : "."
-    }, {
-      "element" : "unitsDirectory",
-      "value" : "."
-    }, {
-      "element" : "financesDirectory",
-      "value" : "."
-    }, {
-      "element" : "personnelDirectory",
-      "value" : "."
-    }, {
-      "element" : "campaignsDirectory",
-      "value" : "C:\\Battletech\\GKF_Campaign\\Saves"
-    }, {
-      "element" : "planetsDirectory",
-      "value" : "."
-    }, {
-      "element" : "selectedTheme",
-      "value" : "javax.swing.plaf.metal.MetalLookAndFeel"
-    } ]
-  }, {
-    "class" : "mekhq.gui.dialog.DailyReportLogDialog",
+    "class" : "mekhq.gui.dialog.AcquisitionsDialog",
     "elements" : [ {
       "element" : "dialog",
-      "value" : "0|0|0|0|false"
-    } ]
-  }, {
-    "class" : "mekhq.gui.RepairTab",
-    "elements" : [ {
-      "element" : "serviceUnitsTable",
-      "value" : "1|DESCENDING"
-    } ]
-  }, {
-    "class" : "mekhq.gui.dialog.ImageChoiceDialog",
-    "elements" : [ {
-      "element" : "dialog",
-      "value" : "467|511|406|104|false"
-    } ]
-  }, {
-    "class" : "mekhq.gui.CampaignGUI",
-    "elements" : [ {
-      "element" : "mainWindow",
-      "value" : "1295|695|-7|-7|true"
-    } ]
-  }, {
-    "class" : "mekhq.gui.PersonnelTab",
-    "elements" : [ {
-      "element" : "personnelView",
-      "value" : "1"
-    }, {
-      "element" : "groupByUnit",
-      "value" : "true"
-    }, {
-      "element" : "personnelType",
-      "value" : "4"
-    }, {
-      "element" : "personnelTable",
-      "value" : "0|DESCENDING"
+      "value" : "716|539|602|250|false"
     } ]
   }, {
     "class" : "mekhq.gui.HangarTab",
     "elements" : [ {
       "element" : "unitType",
-      "value" : "0"
+      "value" : "1"
     }, {
       "element" : "unitView",
       "value" : "1"
@@ -96,6 +30,12 @@
       "value" : "0"
     } ]
   }, {
+    "class" : "mekhq.gui.dialog.EditPersonnelLogDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "469|514|725|263|false"
+    } ]
+  }, {
     "class" : "mekhq.gui.dialog.DataLoadingDialog",
     "elements" : [ {
       "element" : "dialog",
@@ -112,6 +52,144 @@
     "elements" : [ {
       "element" : "partsInUseTable",
       "value" : "0|ASCENDING"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.EditKillLogDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "469|514|725|263|false"
+    } ]
+  }, {
+    "class" : "mekhq.MekHQ",
+    "elements" : [ {
+      "element" : "campaignOptionsDirectory",
+      "value" : "."
+    }, {
+      "element" : "starMapsDirectory",
+      "value" : "."
+    }, {
+      "element" : "scenarioTemplatesDirectory",
+      "value" : "."
+    }, {
+      "element" : "partsDirectory",
+      "value" : "."
+    }, {
+      "element" : "unitsDirectory",
+      "value" : "C:\\Users\\Ibis\\Desktop"
+    }, {
+      "element" : "financesDirectory",
+      "value" : "."
+    }, {
+      "element" : "personnelDirectory",
+      "value" : "."
+    }, {
+      "element" : "campaignsDirectory",
+      "value" : "E:\\Downloads\\Battletech Suff\\MegamekStuff\\GKF_Campaign\\Saves"
+    }, {
+      "element" : "planetsDirectory",
+      "value" : "."
+    }, {
+      "element" : "selectedTheme",
+      "value" : "javax.swing.plaf.metal.MetalLookAndFeel"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.PartsStoreDialog",
+    "elements" : [ {
+      "element" : "partsTable",
+      "value" : "0|ASCENDING"
+    }, {
+      "element" : "dialog",
+      "value" : "700|600|610|220|false"
+    }, {
+      "element" : "partsType",
+      "value" : "5"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.AddOrEditKillEntryDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "256|161|832|439|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.DailyReportLogDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "0|0|0|0|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.RepairTab",
+    "elements" : [ {
+      "element" : "serviceUnitsTable",
+      "value" : "1|DESCENDING"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.ImageChoiceDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "467|511|406|104|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.ChooseMulFilesDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "421|311|749|364|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.CampaignGUI",
+    "elements" : [ {
+      "element" : "mainWindow",
+      "value" : "1936|1056|-8|-8|true"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.CustomizeScenarioDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "426|676|747|262|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.PersonnelTab",
+    "elements" : [ {
+      "element" : "personnelView",
+      "value" : "1"
+    }, {
+      "element" : "groupByUnit",
+      "value" : "true"
+    }, {
+      "element" : "personnelType",
+      "value" : "3"
+    }, {
+      "element" : "personnelTable",
+      "value" : "38|ASCENDING"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.ResolveScenarioWizardDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "616|720|615|122|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.LaunchGameDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "299|140|811|450|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.MissionTypeDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "250|150|835|445|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.CustomizeMissionDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "426|425|747|307|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.NewContractDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "869|845|525|97|false"
     } ]
   } ]
 }

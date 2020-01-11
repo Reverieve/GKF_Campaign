@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<MegaMekSettings>
+    <store name="ClientSettings">
+        <preference name="LastPlayerCamoName" value="Blue"/>
+        <preference name="LastPlayerCategory" value="-- No Camo --"/>
+        <preference name="LastPlayerColor" value="0"/>
+        <preference name="LastPlayerName" value="Revy"/>
+        <preference name="megamek.megamek.metaservername" value="https://api.megamek.org/servers/announce"/>
+    </store>
+    <store name="megamek.client.ui.swing.ButtonOrderPreferences"/>
+    <store name="megamek.client.ui.swing.GUIPreferences">
+        <preference name="MinimapPosY" value="198"/>
+        <preference name="MinimapPosX" value="3720"/>
+        <preference name="MechSelectorSizeWidth" value="841"/>
+        <preference name="DisplayPosY" value="366"/>
+        <preference name="DisplayPosX" value="-409"/>
+        <preference name="NagForBotReadme" value="false"/>
+        <preference name="MechSelectorRuleType" value="[0, 1, 2, 3, 4, 5, 6, 7, 8]"/>
+        <preference name="NagForNoAction" value="false"/>
+        <preference name="NagForReadme" value="false"/>
+        <preference name="WindowSizeHeight" value="1056"/>
+        <preference name="WindowPosY" value="0"/>
+        <preference name="MechSelectorUnitType" value="1"/>
+        <preference name="WindowPosX" value="0"/>
+        <preference name="GameOptionsSizeWidth" value="626"/>
+        <preference name="WindowSizeWidth" value="1936"/>
+    </store>
+</MegaMekSettings>
