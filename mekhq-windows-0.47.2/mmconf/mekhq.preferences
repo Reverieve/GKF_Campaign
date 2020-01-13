@@ -1,9 +1,9 @@
 {
   "preferences" : [ {
-    "class" : "mekhq.gui.dialog.AcquisitionsDialog",
+    "class" : "mekhq.gui.dialog.EditTransactionDialog",
     "elements" : [ {
       "element" : "dialog",
-      "value" : "716|539|602|250|false"
+      "value" : "543|119|960|520|false"
     } ]
   }, {
     "class" : "mekhq.gui.HangarTab",
@@ -18,30 +18,6 @@
       "value" : "1|DESCENDING"
     } ]
   }, {
-    "class" : "mekhq.gui.WarehouseTab",
-    "elements" : [ {
-      "element" : "partsTable",
-      "value" : "0|ASCENDING"
-    }, {
-      "element" : "partsType",
-      "value" : "0"
-    }, {
-      "element" : "partsView",
-      "value" : "0"
-    } ]
-  }, {
-    "class" : "mekhq.gui.dialog.EditPersonnelLogDialog",
-    "elements" : [ {
-      "element" : "dialog",
-      "value" : "469|514|725|263|false"
-    } ]
-  }, {
-    "class" : "mekhq.gui.dialog.DataLoadingDialog",
-    "elements" : [ {
-      "element" : "dialog",
-      "value" : "650|370|315|175|false"
-    } ]
-  }, {
     "class" : "mekhq.gui.dialog.CustomizePersonDialog",
     "elements" : [ {
       "element" : "dialog",
@@ -54,10 +30,19 @@
       "value" : "0|ASCENDING"
     } ]
   }, {
-    "class" : "mekhq.gui.dialog.EditKillLogDialog",
+    "class" : "mekhq.gui.dialog.UnitSelectorDialog",
     "elements" : [ {
+      "element" : "unitType",
+      "value" : "0"
+    }, {
       "element" : "dialog",
-      "value" : "469|514|725|263|false"
+      "value" : "878|667|521|186|false"
+    }, {
+      "element" : "weight",
+      "value" : "15"
+    }, {
+      "element" : "unitsTable",
+      "value" : "0|ASCENDING"
     } ]
   }, {
     "class" : "mekhq.MekHQ",
@@ -105,6 +90,12 @@
       "value" : "5"
     } ]
   }, {
+    "class" : "mekhq.gui.dialog.EditAssetDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "209|200|855|420|false"
+    } ]
+  }, {
     "class" : "mekhq.gui.dialog.AddOrEditKillEntryDialog",
     "elements" : [ {
       "element" : "dialog",
@@ -117,34 +108,28 @@
       "value" : "0|0|0|0|false"
     } ]
   }, {
+    "class" : "mekhq.gui.dialog.ManageAssetsDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "469|514|725|263|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.RefitNameDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "183|135|868|452|false"
+    } ]
+  }, {
     "class" : "mekhq.gui.RepairTab",
     "elements" : [ {
       "element" : "serviceUnitsTable",
       "value" : "1|DESCENDING"
     } ]
   }, {
-    "class" : "mekhq.gui.dialog.ImageChoiceDialog",
-    "elements" : [ {
-      "element" : "dialog",
-      "value" : "467|511|406|104|false"
-    } ]
-  }, {
     "class" : "mekhq.gui.dialog.ChooseMulFilesDialog",
     "elements" : [ {
       "element" : "dialog",
       "value" : "421|311|749|364|false"
-    } ]
-  }, {
-    "class" : "mekhq.gui.CampaignGUI",
-    "elements" : [ {
-      "element" : "mainWindow",
-      "value" : "1936|1056|-8|-8|true"
-    } ]
-  }, {
-    "class" : "mekhq.gui.dialog.CustomizeScenarioDialog",
-    "elements" : [ {
-      "element" : "dialog",
-      "value" : "426|676|747|262|false"
     } ]
   }, {
     "class" : "mekhq.gui.PersonnelTab",
@@ -168,6 +153,12 @@
       "value" : "616|720|615|122|false"
     } ]
   }, {
+    "class" : "mekhq.gui.dialog.CompleteMissionDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "212|110|854|465|false"
+    } ]
+  }, {
     "class" : "mekhq.gui.dialog.LaunchGameDialog",
     "elements" : [ {
       "element" : "dialog",
@@ -180,10 +171,88 @@
       "value" : "250|150|835|445|false"
     } ]
   }, {
+    "class" : "mekhq.gui.dialog.LootDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "285|469|817|285|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.CampaignOptionsDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "1029|741|445|149|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.AcquisitionsDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "716|539|602|250|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.WarehouseTab",
+    "elements" : [ {
+      "element" : "partsTable",
+      "value" : "0|ASCENDING"
+    }, {
+      "element" : "partsType",
+      "value" : "10"
+    }, {
+      "element" : "partsView",
+      "value" : "0"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.EditPersonnelLogDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "469|514|725|263|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.DataLoadingDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "650|370|315|175|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.EditKillLogDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "469|514|725|263|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.ImageChoiceDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "467|511|406|104|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.CampaignGUI",
+    "elements" : [ {
+      "element" : "mainWindow",
+      "value" : "1936|1056|-8|-8|true"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.CustomizeScenarioDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "426|515|747|262|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.AddFundsDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "539|94|960|520|false"
+    } ]
+  }, {
     "class" : "mekhq.gui.dialog.CustomizeMissionDialog",
     "elements" : [ {
       "element" : "dialog",
       "value" : "426|425|747|307|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.EditPersonnelHitsDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "240|114|840|463|false"
     } ]
   }, {
     "class" : "mekhq.gui.dialog.NewContractDialog",

@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <MegaMekSettings>
     <store name="ClientSettings">
-        <preference name="LastPlayerCamoName" value="Blue"/>
+        <preference name="LastPlayerCamoName" value="Red"/>
         <preference name="LastPlayerCategory" value="-- No Camo --"/>
-        <preference name="LastPlayerColor" value="0"/>
+        <preference name="LastPlayerColor" value="1"/>
         <preference name="LastPlayerName" value="Revy"/>
         <preference name="megamek.megamek.metaservername" value="https://api.megamek.org/servers/announce"/>
     </store>

@@ -2179,13 +2179,13 @@
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -2297,12 +2297,12 @@
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -2358,13 +2358,13 @@
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -2488,12 +2488,12 @@
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -2613,12 +2613,12 @@
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
@@ -2743,13 +2743,13 @@
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -2869,13 +2869,13 @@
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -2927,12 +2927,12 @@
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3127-07-16 12:00:00</birthday>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -3044,13 +3044,13 @@
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3127-06-17 12:00:00</birthday>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -3602,12 +3602,12 @@
 			<birthday>3031-06-06 12:00:00</birthday>
 			<recruitment>3150-01-06 12:00:00</recruitment>
 			<skill>
-				<type>Administration</type>
+				<type>Negotiation</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Negotiation</type>
+				<type>Administration</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -4463,13 +4463,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>4</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>4</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -4524,13 +4524,13 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3111-02-16 12:00:00</birthday>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -4595,13 +4595,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -4662,13 +4662,13 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3126-05-20 12:00:00</birthday>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -4730,13 +4730,13 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3123-01-31 12:00:00</birthday>
 			<skill>
-				<type>Small Arms</type>
-				<level>1</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>1</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -4802,12 +4802,12 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -4875,13 +4875,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>1</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>1</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -4936,13 +4936,13 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3124-02-06 12:00:00</birthday>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>5</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>5</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -4998,13 +4998,13 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3128-06-14 12:00:00</birthday>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -5064,12 +5064,12 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -7648,13 +7648,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -7707,12 +7707,12 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3125-03-25 12:00:00</birthday>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -7980,12 +7980,12 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Mech</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Mech</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -8048,13 +8048,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -8104,12 +8104,12 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3128-05-19 12:00:00</birthday>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -8165,12 +8165,12 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -8226,13 +8226,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>3</level>
+				<type>Gunnery/Vehicle</type>
+				<level>4</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>4</level>
+				<type>Small Arms</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -8287,12 +8287,12 @@ Luck 1</biography>
 			<birthday>3121-06-29 12:00:00</birthday>
 			<deathday>3152-05-18 12:00:00</deathday>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -8353,13 +8353,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -9003,13 +9003,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>4</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>4</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -9062,12 +9062,12 @@ Luck 1</biography>
 			<overtimeLeft>0</overtimeLeft>
 			<birthday>3126-01-01 12:00:00</birthday>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -9182,12 +9182,12 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Vehicle</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -9251,13 +9251,13 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>4</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>4</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -9312,13 +9312,13 @@ Luck 1</biography>
 			<birthday>3118-09-09 12:00:00</birthday>
 			<deathday>3152-05-18 12:00:00</deathday>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -9373,13 +9373,13 @@ Luck 1</biography>
 			<birthday>3127-06-10 12:00:00</birthday>
 			<deathday>3152-05-18 12:00:00</deathday>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -9434,13 +9434,13 @@ Luck 1</biography>
 			<birthday>3126-12-22 12:00:00</birthday>
 			<deathday>3152-05-18 12:00:00</deathday>
 			<skill>
-				<type>Gunnery/Vehicle</type>
-				<level>3</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
-				<level>2</level>
+				<type>Gunnery/Vehicle</type>
+				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<personnelLog>
@@ -10233,12 +10233,12 @@ Luck 1</biography>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Small Arms</type>
+				<type>Gunnery/Mech</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
-				<type>Gunnery/Mech</type>
+				<type>Small Arms</type>
 				<level>3</level>
 				<bonus>0</bonus>
 			</skill>
@@ -10309,7 +10309,7 @@ Luck 1</biography>
 <extraData/>		</person>
 		<person id="d39e281c-bf54-480c-9875-db6e9e4e5418" type="mekhq.campaign.personnel.Person">
 			<name>Catherine Nova Cat</name>
-			<callsign>Cat</callsign>
+			<callsign></callsign>
 			<primaryRole>1</primaryRole>
 			<secondaryRole>15</secondaryRole>
 			<primaryDesignator>0</primaryDesignator>
@@ -10348,8 +10348,23 @@ Sharpshooter - 4</biography>
 			<birthday>3130-10-03 12:00:00</birthday>
 			<recruitment>3152-05-15 12:00:00</recruitment>
 			<skill>
-				<type>Small Arms</type>
+				<type>Medtech</type>
 				<level>2</level>
+				<bonus>0</bonus>
+			</skill>
+			<skill>
+				<type>Leadership</type>
+				<level>3</level>
+				<bonus>0</bonus>
+			</skill>
+			<skill>
+				<type>Negotiation</type>
+				<level>2</level>
+				<bonus>0</bonus>
+			</skill>
+			<skill>
+				<type>Tactics</type>
+				<level>5</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
@@ -10358,14 +10373,19 @@ Sharpshooter - 4</biography>
 				<bonus>1</bonus>
 			</skill>
 			<skill>
-				<type>Tech/Mech</type>
-				<level>4</level>
+				<type>Small Arms</type>
+				<level>2</level>
 				<bonus>0</bonus>
 			</skill>
 			<skill>
 				<type>Piloting/Mech</type>
 				<level>5</level>
 				<bonus>1</bonus>
+			</skill>
+			<skill>
+				<type>Tech/Mech</type>
+				<level>4</level>
+				<bonus>0</bonus>
 			</skill>
 			<advantages>maneuvering_ace::human_tro Mek::clan_tech_knowledge</advantages>
 			<techUnitIds>
@@ -18006,28 +18026,7 @@ Mercenary Liaison
 			<removeAbilities>hopping_jack</removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Protomech::Regular</skill>
 				<skill>Piloting/Mech::Regular</skill>
-			</skillPrereq>
-		</ability>
-		<ability>
-			<displayName>Sandblaster (CamOps)</displayName>
-			<lookupName>sandblaster</lookupName>
-			<desc>A pilot with this ability gets a +4, +3, or +2 to the cluster table
-at short, medium, or long/extended range, respectively, but only with a specialized weapon.</desc>
-			<xpCost>10</xpCost>
-			<weight>3</weight>
-			<prereqAbilities></prereqAbilities>
-			<invalidAbilities>cluster_hitter::cluster_master</invalidAbilities>
-			<removeAbilities></removeAbilities>
-			<choiceValues></choiceValues>
-			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
-				<skill>Gunnery/Aircraft::Regular</skill>
-				<skill>Gunnery/Spacecraft::Regular</skill>
-				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
-				<skill>Gunnery/Mech::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
@@ -18042,14 +18041,54 @@ at short, medium, or long/extended range, respectively, but only with a speciali
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aircraft::Regular</skill>
-				<skill>Gunnery/Spacecraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
+				<skill>Gunnery/Spacecraft::Regular</skill>
 				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
+		</ability>
+		<ability>
+			<displayName>Sandblaster (CamOps)</displayName>
+			<lookupName>sandblaster</lookupName>
+			<desc>A pilot with this ability gets a +4, +3, or +2 to the cluster table
+at short, medium, or long/extended range, respectively, but only with a specialized weapon.</desc>
+			<xpCost>10</xpCost>
+			<weight>3</weight>
+			<prereqAbilities></prereqAbilities>
+			<invalidAbilities>cluster_hitter::cluster_master</invalidAbilities>
+			<removeAbilities></removeAbilities>
+			<choiceValues></choiceValues>
+			<skillPrereq>
+				<skill>Gunnery/Aircraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
+				<skill>Gunnery/Aerospace::Regular</skill>
+				<skill>Gunnery/Spacecraft::Regular</skill>
+				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
+			</skillPrereq>
+		</ability>
+		<ability>
+			<displayName>Clan Tech Knowledge (Unofficial)</displayName>
+			<lookupName>clan_tech_knowledge</lookupName>
+			<desc>clan_tech_knowledge</desc>
+			<xpCost>4</xpCost>
+			<weight>2</weight>
+			<prereqAbilities></prereqAbilities>
+			<invalidAbilities></invalidAbilities>
+			<removeAbilities></removeAbilities>
+			<choiceValues></choiceValues>
+			<skillPrereq>
+				<skill>Tech/Vessel</skill>
+				<skill>Tech/Aero</skill>
+				<skill>Tech/BA</skill>
+				<skill>Tech/Mechanic</skill>
+				<skill>Tech/Mech</skill>
+			</skillPrereq>
+			<miscPrereq>clanner:false</miscPrereq>
 		</ability>
 		<ability>
 			<displayName>Tactical Genius (CamOps)</displayName>
@@ -18068,23 +18107,22 @@ Note: Only one Tactical Genius may be utilized per team.</desc>
 			</skillPrereq>
 		</ability>
 		<ability>
-			<displayName>Clan Tech Knowledge (Unofficial)</displayName>
-			<lookupName>clan_tech_knowledge</lookupName>
-			<desc>clan_tech_knowledge</desc>
-			<xpCost>4</xpCost>
-			<weight>2</weight>
+			<displayName>Terrain Master [Forest Ranger] (CamOps)</displayName>
+			<lookupName>tm_forest_ranger</lookupName>
+			<desc>Movement in woods or jungle costs 1 less MP.
+Using walk/cruise MP while in woods/jungle gives +1 BTH when being attacked.
+Additionally, you gain -1 to PSR checks in Jungle terrain.</desc>
+			<xpCost>15</xpCost>
+			<weight>3</weight>
 			<prereqAbilities></prereqAbilities>
 			<invalidAbilities></invalidAbilities>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Tech/Vessel</skill>
-				<skill>Tech/BA</skill>
-				<skill>Tech/Aero</skill>
-				<skill>Tech/Mechanic</skill>
-				<skill>Tech/Mech</skill>
+				<skill>Piloting/Ground Vehicle::Veteran</skill>
+				<skill>Piloting/Mech::Veteran</skill>
+				<skill>Gunnery/Protomech::Veteran</skill>
 			</skillPrereq>
-			<miscPrereq>clanner:false</miscPrereq>
 		</ability>
 		<ability>
 			<displayName>Dodge (MaxTech)</displayName>
@@ -18100,26 +18138,8 @@ Note: This ability is only used for BattleMechs.</desc>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Protomech::Regular</skill>
 				<skill>Piloting/Mech::Regular</skill>
-			</skillPrereq>
-		</ability>
-		<ability>
-			<displayName>Terrain Master [Forest Ranger] (CamOps)</displayName>
-			<lookupName>tm_forest_ranger</lookupName>
-			<desc>Movement in woods or jungle costs 1 less MP.
-Using walk/cruise MP while in woods/jungle gives +1 BTH when being attacked.
-Additionally, you gain -1 to PSR checks in Jungle terrain.</desc>
-			<xpCost>15</xpCost>
-			<weight>3</weight>
-			<prereqAbilities></prereqAbilities>
-			<invalidAbilities></invalidAbilities>
-			<removeAbilities></removeAbilities>
-			<choiceValues></choiceValues>
-			<skillPrereq>
-				<skill>Piloting/Ground Vehicle::Veteran</skill>
-				<skill>Gunnery/Protomech::Veteran</skill>
-				<skill>Piloting/Mech::Veteran</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18148,12 +18168,12 @@ Additionally, you gain -1 to PSR checks in Jungle terrain.</desc>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Veteran</skill>
 				<skill>Gunnery/Aircraft::Veteran</skill>
-				<skill>Gunnery/Spacecraft::Veteran</skill>
+				<skill>Gunnery/Battlesuit::Veteran</skill>
 				<skill>Gunnery/Aerospace::Veteran</skill>
-				<skill>Gunnery/Vehicle::Veteran</skill>
+				<skill>Gunnery/Spacecraft::Veteran</skill>
 				<skill>Gunnery/Mech::Veteran</skill>
+				<skill>Gunnery/Vehicle::Veteran</skill>
 				<skill>Gunnery/Protomech::Veteran</skill>
 			</skillPrereq>
 		</ability>
@@ -18170,8 +18190,8 @@ The mountaineer also recieves a -1 to PSR checks for the given terrain.</desc>
 			<choiceValues></choiceValues>
 			<skillPrereq>
 				<skill>Piloting/Ground Vehicle::Veteran</skill>
-				<skill>Gunnery/Protomech::Veteran</skill>
 				<skill>Piloting/Mech::Veteran</skill>
+				<skill>Gunnery/Protomech::Veteran</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18185,12 +18205,12 @@ The mountaineer also recieves a -1 to PSR checks for the given terrain.</desc>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Veteran</skill>
 				<skill>Gunnery/Aircraft::Veteran</skill>
-				<skill>Gunnery/Spacecraft::Veteran</skill>
+				<skill>Gunnery/Battlesuit::Veteran</skill>
 				<skill>Gunnery/Aerospace::Veteran</skill>
-				<skill>Gunnery/Vehicle::Veteran</skill>
+				<skill>Gunnery/Spacecraft::Veteran</skill>
 				<skill>Gunnery/Mech::Veteran</skill>
+				<skill>Gunnery/Vehicle::Veteran</skill>
 				<skill>Gunnery/Protomech::Veteran</skill>
 			</skillPrereq>
 		</ability>
@@ -18244,12 +18264,12 @@ The mountaineer also recieves a -1 to PSR checks for the given terrain.</desc>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aircraft::Regular</skill>
-				<skill>Gunnery/Spacecraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
+				<skill>Gunnery/Spacecraft::Regular</skill>
 				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
@@ -18278,12 +18298,12 @@ The mountaineer also recieves a -1 to PSR checks for the given terrain.</desc>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aircraft::Regular</skill>
-				<skill>Gunnery/Spacecraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
+				<skill>Gunnery/Spacecraft::Regular</skill>
 				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
@@ -18299,8 +18319,8 @@ Also grants -1 to all PSR checks (including physicals) as well as -2 to Crush De
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Protomech::Veteran</skill>
 				<skill>Piloting/Mech::Veteran</skill>
+				<skill>Gunnery/Protomech::Veteran</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18336,27 +18356,8 @@ Also grants -1 to all PSR checks (including physicals) as well as -2 to Crush De
 				<skill>Gunnery/Battlesuit::Green</skill>
 				<skill>Piloting/VTOL::Green</skill>
 				<skill>Piloting/Aircraft::Green</skill>
-				<skill>Gunnery/Protomech::Green</skill>
 				<skill>Piloting/Mech::Green</skill>
-			</skillPrereq>
-		</ability>
-		<ability>
-			<displayName>Oblique Attacker (CamOps)</displayName>
-			<lookupName>oblique_attacker</lookupName>
-			<desc>The penalty for indirect fire is reduced by one and can also use indirect fire with out a spotter.</desc>
-			<xpCost>5</xpCost>
-			<weight>2</weight>
-			<prereqAbilities></prereqAbilities>
-			<invalidAbilities></invalidAbilities>
-			<removeAbilities></removeAbilities>
-			<choiceValues></choiceValues>
-			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
-				<skill>Gunnery/Aircraft::Regular</skill>
-				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
-				<skill>Gunnery/Mech::Regular</skill>
-				<skill>Gunnery/Protomech::Regular</skill>
+				<skill>Gunnery/Protomech::Green</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18377,21 +18378,21 @@ Finally, urban guerrillas can call on local support once per scenario.</desc>
 			</skillPrereq>
 		</ability>
 		<ability>
-			<displayName>Oblique Artilleryman (CamOps)</displayName>
-			<lookupName>oblique_artillery</lookupName>
-			<desc>Reduces scatter distance by two hexes.</desc>
-			<xpCost>10</xpCost>
+			<displayName>Oblique Attacker (CamOps)</displayName>
+			<lookupName>oblique_attacker</lookupName>
+			<desc>The penalty for indirect fire is reduced by one and can also use indirect fire with out a spotter.</desc>
+			<xpCost>5</xpCost>
 			<weight>2</weight>
 			<prereqAbilities></prereqAbilities>
 			<invalidAbilities></invalidAbilities>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aircraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
@@ -18414,8 +18415,27 @@ Units also receive a -1 BTH to rolls against skidding, sideslipping, and going o
 				<skill>Piloting/Ground Vehicle::Regular</skill>
 				<skill>Piloting/VTOL::Regular</skill>
 				<skill>Piloting/Aircraft::Regular</skill>
-				<skill>Gunnery/Protomech::Regular</skill>
 				<skill>Piloting/Mech::Regular</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
+			</skillPrereq>
+		</ability>
+		<ability>
+			<displayName>Oblique Artilleryman (CamOps)</displayName>
+			<lookupName>oblique_artillery</lookupName>
+			<desc>Reduces scatter distance by two hexes.</desc>
+			<xpCost>10</xpCost>
+			<weight>2</weight>
+			<prereqAbilities></prereqAbilities>
+			<invalidAbilities></invalidAbilities>
+			<removeAbilities></removeAbilities>
+			<choiceValues></choiceValues>
+			<skillPrereq>
+				<skill>Gunnery/Aircraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
+				<skill>Gunnery/Aerospace::Regular</skill>
+				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18429,8 +18449,8 @@ Units also receive a -1 BTH to rolls against skidding, sideslipping, and going o
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Protomech::Regular</skill>
 				<skill>Piloting/Mech::Regular</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18444,12 +18464,12 @@ Units also receive a -1 BTH to rolls against skidding, sideslipping, and going o
 			<removeAbilities>cluster_hitter</removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Veteran</skill>
 				<skill>Gunnery/Aircraft::Veteran</skill>
-				<skill>Gunnery/Spacecraft::Veteran</skill>
+				<skill>Gunnery/Battlesuit::Veteran</skill>
 				<skill>Gunnery/Aerospace::Veteran</skill>
-				<skill>Gunnery/Vehicle::Veteran</skill>
+				<skill>Gunnery/Spacecraft::Veteran</skill>
 				<skill>Gunnery/Mech::Veteran</skill>
+				<skill>Gunnery/Vehicle::Veteran</skill>
 				<skill>Gunnery/Protomech::Veteran</skill>
 			</skillPrereq>
 		</ability>
@@ -18467,8 +18487,8 @@ NOTE: The quirk should be used only on bipedal units that have an animal like ap
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Protomech::Regular</skill>
 				<skill>Piloting/Mech::Regular</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18483,8 +18503,8 @@ Note: This ability is only used for BattleMechs.</desc>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Protomech::Regular</skill>
 				<skill>Piloting/Mech::Regular</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18541,8 +18561,8 @@ Note: This ability is only used for BattleMechs.</desc>
 				<skill>Piloting/Ground Vehicle::Regular</skill>
 				<skill>Piloting/VTOL::Regular</skill>
 				<skill>Piloting/Aircraft::Regular</skill>
-				<skill>Gunnery/Protomech::Regular</skill>
 				<skill>Piloting/Mech::Regular</skill>
+				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
@@ -18573,27 +18593,22 @@ Using run/flank MP while in mud/swamp gives +1 BTH when being attacked</desc>
 			<choiceValues></choiceValues>
 			<skillPrereq>
 				<skill>Piloting/Ground Vehicle::Veteran</skill>
-				<skill>Gunnery/Protomech::Veteran</skill>
 				<skill>Piloting/Mech::Veteran</skill>
+				<skill>Gunnery/Protomech::Veteran</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
-			<displayName>RangeMaster (CamOps)</displayName>
-			<lookupName>range_master</lookupName>
-			<desc>Range modifiers are swapped with short range (Medium, Long, or Extreme).</desc>
-			<xpCost>10</xpCost>
+			<displayName>Hopping Jack (Unofficial)</displayName>
+			<lookupName>hopping_jack</lookupName>
+			<desc>Unit only suffers a +2 to-hit penalty for jumping, rather than a +3 to-hit penalty.</desc>
+			<xpCost>5</xpCost>
 			<weight>3</weight>
 			<prereqAbilities></prereqAbilities>
-			<invalidAbilities></invalidAbilities>
+			<invalidAbilities>jumping_jack</invalidAbilities>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
-				<skill>Gunnery/Aircraft::Regular</skill>
-				<skill>Gunnery/Spacecraft::Regular</skill>
-				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
-				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Piloting/Mech::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
@@ -18608,27 +18623,32 @@ Using run/flank MP while in mud/swamp gives +1 BTH when being attacked</desc>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
-				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aircraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
 				<skill>Gunnery/Aerospace::Regular</skill>
-				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
 			</skillPrereq>
 		</ability>
 		<ability>
-			<displayName>Hopping Jack (Unofficial)</displayName>
-			<lookupName>hopping_jack</lookupName>
-			<desc>Unit only suffers a +2 to-hit penalty for jumping, rather than a +3 to-hit penalty.</desc>
-			<xpCost>5</xpCost>
+			<displayName>RangeMaster (CamOps)</displayName>
+			<lookupName>range_master</lookupName>
+			<desc>Range modifiers are swapped with short range (Medium, Long, or Extreme).</desc>
+			<xpCost>10</xpCost>
 			<weight>3</weight>
 			<prereqAbilities></prereqAbilities>
-			<invalidAbilities>jumping_jack</invalidAbilities>
+			<invalidAbilities></invalidAbilities>
 			<removeAbilities></removeAbilities>
 			<choiceValues></choiceValues>
 			<skillPrereq>
+				<skill>Gunnery/Aircraft::Regular</skill>
+				<skill>Gunnery/Battlesuit::Regular</skill>
+				<skill>Gunnery/Aerospace::Regular</skill>
+				<skill>Gunnery/Spacecraft::Regular</skill>
+				<skill>Gunnery/Mech::Regular</skill>
+				<skill>Gunnery/Vehicle::Regular</skill>
 				<skill>Gunnery/Protomech::Regular</skill>
-				<skill>Piloting/Mech::Regular</skill>
 			</skillPrereq>
 		</ability>
 	</specialAbilities>
