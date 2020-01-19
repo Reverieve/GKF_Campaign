@@ -1,0 +1,154 @@
+Version:1.0
+Sunder
+SD1-O Dominic-A-1
+
+Config:Biped Omnimech
+TechBase:Mixed (IS Chassis)
+Era:3150
+Rules Level:4
+
+Mass:90
+Engine:360 XL Engine(IS)
+Structure:IS Standard
+Myomer:Standard
+
+Heat Sinks:20 Double
+Base Chassis Heat Sinks:14
+Walk MP:4
+Jump MP:4
+
+Armor:Standard(Clan)
+LA Armor:30
+RA Armor:30
+LT Armor:28
+RT Armor:28
+CT Armor:41
+HD Armor:9
+LL Armor:33
+RL Armor:33
+RTL Armor:10
+RTR Armor:10
+RTC Armor:12
+
+Weapons:7
+Large Pulse Laser, Right Arm
+Large Pulse Laser, Left Arm
+Snub-Nose PPC, Right Torso
+TAG, Left Torso
+Medium X-Pulse Laser, Head
+ER Flamer, Left Arm
+ER Medium Laser, Right Arm
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ER Flamer (omnipod)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+CLLargePulseLaser (omnipod)
+CLLargePulseLaser (omnipod)
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISERMediumLaser (omnipod)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+Jump Jet (omnipod)
+ISTAG (omnipod)
+-Empty-
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+ISDoubleHeatSink (omnipod)
+Jump Jet (omnipod)
+ISSNPPC (omnipod)
+ISSNPPC (omnipod)
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Jump Jet (omnipod)
+Jump Jet (omnipod)
+
+Head:
+Life Support
+Sensors
+Cockpit
+ISMediumXPulseLaser (omnipod)
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+

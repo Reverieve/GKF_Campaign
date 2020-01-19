@@ -12,10 +12,22 @@
       "value" : "1"
     }, {
       "element" : "unitView",
-      "value" : "1"
+      "value" : "2"
     }, {
       "element" : "unitTable",
-      "value" : "1|DESCENDING"
+      "value" : "4|ASCENDING"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.MaintenanceReportDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "700|500|-1310|290|false"
+    } ]
+  }, {
+    "class" : "mekhq.gui.dialog.ChooseRefitDialog",
+    "elements" : [ {
+      "element" : "dialog",
+      "value" : "1123|748|398|146|false"
     } ]
   }, {
     "class" : "mekhq.gui.dialog.CustomizePersonDialog",
@@ -84,10 +96,10 @@
       "value" : "0|ASCENDING"
     }, {
       "element" : "dialog",
-      "value" : "700|600|610|220|false"
+      "value" : "700|600|742|264|false"
     }, {
       "element" : "partsType",
-      "value" : "5"
+      "value" : "7"
     } ]
   }, {
     "class" : "mekhq.gui.dialog.EditAssetDialog",
@@ -123,7 +135,7 @@
     "class" : "mekhq.gui.RepairTab",
     "elements" : [ {
       "element" : "serviceUnitsTable",
-      "value" : "1|DESCENDING"
+      "value" : "0|DESCENDING"
     } ]
   }, {
     "class" : "mekhq.gui.dialog.ChooseMulFilesDialog",
@@ -141,10 +153,10 @@
       "value" : "true"
     }, {
       "element" : "personnelType",
-      "value" : "3"
+      "value" : "11"
     }, {
       "element" : "personnelTable",
-      "value" : "38|ASCENDING"
+      "value" : "1|ASCENDING"
     } ]
   }, {
     "class" : "mekhq.gui.dialog.ResolveScenarioWizardDialog",
@@ -192,10 +204,10 @@
     "class" : "mekhq.gui.WarehouseTab",
     "elements" : [ {
       "element" : "partsTable",
-      "value" : "0|ASCENDING"
+      "value" : "1|DESCENDING"
     }, {
       "element" : "partsType",
-      "value" : "10"
+      "value" : "6"
     }, {
       "element" : "partsView",
       "value" : "0"

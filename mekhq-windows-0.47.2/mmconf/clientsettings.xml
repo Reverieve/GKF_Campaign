@@ -20,7 +20,7 @@
         <preference name="NagForReadme" value="false"/>
         <preference name="WindowSizeHeight" value="1056"/>
         <preference name="WindowPosY" value="0"/>
-        <preference name="MechSelectorUnitType" value="1"/>
+        <preference name="MechSelectorUnitType" value="0"/>
         <preference name="WindowPosX" value="0"/>
         <preference name="GameOptionsSizeWidth" value="626"/>
         <preference name="WindowSizeWidth" value="1936"/>
