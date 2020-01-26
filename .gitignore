@@ -4,6 +4,7 @@ mekhq-windows-0.47.2/logs/*
 # Ignore megameklab settings and mekhq prefrences
 mekhq-windows-0.47.2\mmconf\megameklab.properties
 mekhq-windows-0.47.2\mmconf\mrkhq.preferences
+mekhq-windows-0.47.2\mmconf\mrkhq.preferences.bak
 
 # Ignore unit cache file
 mekhq-windows-0.47.2\data\mechfiles\units.cache
